@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cwTeXYen;
+    background-color: white;
+    float: center;
+}
+
+h1 {
+    float: center;
+    font-size: 50px;
+    padding: 3px;
+    color: #576b9e;
+    margin: 0px;
+}
+
+table, .foodStyle, .random {
+    width: 90%;
+    font-size: 60px;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+.foodCard{
+    height: 310px;
+    width: 350px;
+}
+button{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.random{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pic {
+    height: 230px;
+    width: 230px;
+}
+.foodpic{
+    height: 190px;
+    width: 270px;
+}
+.card {
+    width: 280px;
+    float: center;
+}
+.foodStyle{
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
+}
+.inputTextbox{
+    width: 90%;
+    float: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-text{
+    font-size: 30px;
+}
+.btn:focus {
+    outline-color:#768cce;
+    box-shadow:#576b9e;
+  }
+.btn-outline-secondary {
+    font-size: 27px;
+    text-align: center;
+    color: #576b9e;
+    /* color: #fdf0ea; */
+    /*background-color: #acbfea;*/
+    border: 1px solid #768cce;
+    height: 50px;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active:hover {
+    color: #576b9e;
+    /* color: #fdf0ea; */
+    background-color: #acbfea;
+    border: 1px solid #768cce;
+}
+.btn-outline-secondary:focus,
+.btn-outline-secondary:active:focus{
+    background-color:#acbfea;
+    border: 1px solid #768cce;
+}
+.randomButton{
+    width:90%;
+}
+
+.carousel-inner {
+}
+.input-group{
+    width: 70%;
+    font-size: 60px;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.form-outline{
+    width: 90%;
+}
+.carousel-item {
+    float: center;
+    height: 500px;
+}
+
+.carouselContainer {
+    width: 90%;
+    float: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+    table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    }
+    th {
+    color: black;
+    text-align: left;
+    }
+    th,
+    td {
+    padding: 10px 20px;
+    }
+    tr:nth-child(even) {
+    background: #eeeeee;
+    }
